@@ -1,26 +1,28 @@
 <section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div>
-                    <img src="img/play.svg" alt="play">
-                </div>
-            </div>
-            <div class="col-12">
-                <span>
-                    Waxom Video Presentation
-                </span>
-            </div>
-            <div class="col-12">
-                <span>
-                    Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.
-                </span>
-            </div>
-            <div>
-                <div class="col-12">
-                    03:26
-                </div>
-            </div>
+
+
+    <div>
+        <div class="video_wrapper video_wrapper_full js-videoWrapper">
+            <!--
+           1. Ссылку на видео храним в data-src, а не src
+           2. Обратим внимание, что выставлены параметры автовоспроизведения(autoplay=1), отмены воспроизведения похожих видео(rel=0), не показываем информацию об авторе(showinfo=0), отключаем лого ютуб (modestbranding=1)
+
+           Полный список параметров: https://developers.google.com/youtube/player_parameters?hl=ru
+           -->
+            <iframe class="videoIframe js-videoIframe" src="" frameborder="0"
+                    allowTransparency="true" allowfullscreen
+                    data-src="https://www.youtube.com/embed/UL6DE6yrEyo?autoplay=1&modestbranding=1&rel=0&hl=ru&showinfo=0&color=white"></iframe>
+            <button class="videoPoster js-videoPoster"><img
+                    class="d-block mx-auto play-btn"
+                    src="img/play.png" alt=""></button>
+            <span class="video-title">
+                Waxom Video Presentation
+            </span>
+            <span class="video-subtitle">
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.
+            </span>
         </div>
     </div>
+
+
 </section>

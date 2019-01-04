@@ -37,7 +37,18 @@
 @import "../../../node_modules/bootstrap/scss/_carousel";
 @import "../../../node_modules/bootstrap/scss/_utilities";
 
-@import '_fonts.sass';
+@import '_fonts.scss';
+@import 'header.scss';
+@import 'marketing.scss';
+@import 'realization.scss';
+@import 'projects.scss';
+@import 'presentation.scss';
+@import 'mobile.scss';
+@import 'statistic.scss';
+@import 'posts.scss';
+@import 'cooperation.scss';
+@import 'info.scss';
+@import 'footer.scss';
 
 //slick
 //@import '../../../node_modules/slick-carousel/slick/slick.css';

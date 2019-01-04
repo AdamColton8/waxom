@@ -1,25 +1,4 @@
-.slider-main{
-  height: 100vh;
-  .slide-one{
-    background:url(../img/slide_one.jpg) no-repeat center;
-    height: 100vh;
-  }
-  .slide-two{
-    background:url(../img/slide-two.jpg) no-repeat center;
-    height: 100vh;
-  }
-  .slide-three{
-    background:url(../img/slide-three.jpg) no-repeat center;
-    height: 100vh;
-  }
-  .slick-next {
-    right: 20px;
-  }
-  .slick-prev {
-    left: 20px;
-    z-index: 1;
-  }
-  .slick-dots{
-    bottom: 15px;
-  }
+body{
+  font-family: 'Montserrat', sans-serif;
 }
+

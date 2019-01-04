@@ -1,0 +1,67 @@
+.projects-section {
+  margin-top: 81px;
+  margin-bottom: 80px;
+}
+
+.btn-brown {
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #8c8c8c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  border: 1px solid #ebebeb;
+  &:hover {
+    color: #fff;
+    background-color: #998675;
+  }
+}
+
+.projects-card{
+  margin-bottom: 30px;
+}
+
+.projects-txt-wrap {
+  background-color: #fbfaf8;
+  padding: 30px 0 27px 28px;
+  position: relative;
+  &:before {
+    content: '';
+    background: url(../img/arrow-card.png);
+    width: 30px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 18px;
+  }
+}
+
+.projects-card-title {
+  color: #c7b299;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+
+}
+
+.projects-card-subtitle {
+  color: #d1d1d1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  display: block;
+}
+.projects-btn-wrap{
+  max-width: 527px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.wrap-load-more{
+  margin: 0 auto;
+  max-width: 160px;
+  margin-top: 10px;
+}
