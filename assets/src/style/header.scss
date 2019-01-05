@@ -150,3 +150,55 @@ li.slick-active{
 .slick-dotted.slick-slider {
   margin-bottom: 0;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+@include media-breakpoint-only(xl) {
+  .cart-top{
+    margin-left: 63px;
+  }
+
+}
+
+@include media-breakpoint-between(xs, md) {
+  .header-inside{
+    z-index: 11234;
+  }
+  .navbar-mobile{
+    background: rgb(255,255,255);
+    padding: 20px;
+    a.nav-link{
+      color: #111111!important;
+    }
+  }
+  .unique-txt{
+    font-size: 16px;
+  }
+  .portfolio-text {
+    font-size: 30px;
+  }
+  .nam-txt {
+    font-size: 12px;
+  }
+  .header-main {
+    top: 20%;
+    margin-top: 0;
+  }
+  .arrows-main .prev {
+    left: 15px;
+    img{
+      width: 50%;
+    }
+  }
+  .arrows-main .next {
+    right: 15px;
+    img{
+      width: 50%;
+    }
+  }
+  .btn-main{
+    padding: 10px 20px;
+  }
+
+}

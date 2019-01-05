@@ -101,3 +101,15 @@
 .play-btn{
   margin-top: -100px;
 }
+
+@include media-breakpoint-between(xs, md) {
+  .video_wrapper_full{
+    padding-top: 466px;
+  }
+  .video-subtitle{
+    display: none;
+  }
+  .video-title{
+    text-align: center;
+  }
+}

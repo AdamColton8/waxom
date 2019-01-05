@@ -3,3 +3,14 @@
   padding-top: 140px;
   padding-bottom: 140px;
 }
+@include media-breakpoint-between(xs, md) {
+  .cooperation-section{
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .wrap-coop{
+    margin-bottom: 30px;
+  }
+}

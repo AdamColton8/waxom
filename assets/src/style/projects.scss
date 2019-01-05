@@ -65,3 +65,11 @@
   max-width: 160px;
   margin-top: 10px;
 }
+@include media-breakpoint-between(xs, md) {
+  .wrap-load-more{
+    max-width: 123px;
+  }
+  .btn-brown{
+    margin-bottom: 5px;
+  }
+}

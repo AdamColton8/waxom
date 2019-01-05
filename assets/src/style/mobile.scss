@@ -38,3 +38,16 @@
     margin-right: 20px;
   }
 }
+
+@include media-breakpoint-between(xs, md) {
+  .wrap-mobile-txt{
+    margin-left: 0;
+  }
+  .mobile-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .title-mobile{
+    margin-top: 20px;
+  }
+}
